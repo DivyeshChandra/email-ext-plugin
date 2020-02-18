@@ -1,6 +1,8 @@
 // this uses the buildPlugin step from
 // The jenkins-infra/pipeline-library repo
 
+def recentLTS = "2.164.1"
+
 buildPlugin(
     forceAci: true, // this uses Azure Container Instances for the build
     failFast: false,
